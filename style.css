@@ -309,7 +309,7 @@ td {
     border: 1px solid rgba(128, 128, 128, 0.717);
   }
 }
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 1024px) {
   .header-container {
     /* border: 1px solid white; */
     width: 98%;
@@ -363,14 +363,13 @@ td {
     margin-top: 3rem;
   }
 }
-@media screen and (max-width: 1440px) {
+@media screen and (min-width: 1440px) {
   .header-container {
     /* border: 1px solid white; */
     width: 98%;
     margin-left: 10px;
   }
   .main-container {
-    border: 1px solid white;
     margin-top: 5rem;
   }
   .background-blur {
