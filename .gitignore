@@ -1,0 +1,15 @@
+# VS Code
+.vscode/
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Environment Files
+.env
+
+# Vercel
+.vercel/
