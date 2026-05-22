@@ -109,7 +109,21 @@ Tested Features
 
 ## Screenshots
 
-![App Screenshot](https://dummyimage.com/468x300?text=App+Screenshot+Here)
+ - Responsive screenshots
+   
+![App Screenshot](https://github.com/Yashwanthkumar-dev/interactive_task_Management/blob/057c8892a5f712607627afd3215a710acb6fe719/Screenshot%20from%202026-05-22%2019-55-48.png)
+![App Screenshot](https://github.com/Yashwanthkumar-dev/interactive_task_Management/blob/057c8892a5f712607627afd3215a710acb6fe719/Screenshot%20from%202026-05-22%2019-55-44.png)
+![App Screenshot](https://github.com/Yashwanthkumar-dev/interactive_task_Management/blob/057c8892a5f712607627afd3215a710acb6fe719/Screenshot%20from%202026-05-22%2019-55-42.png)
+![App Screenshot](https://github.com/Yashwanthkumar-dev/interactive_task_Management/blob/057c8892a5f712607627afd3215a710acb6fe719/Screenshot%20from%202026-05-22%2019-55-39.png)
+![App Screenshot](https://github.com/Yashwanthkumar-dev/interactive_task_Management/blob/057c8892a5f712607627afd3215a710acb6fe719/Screenshot%20from%202026-05-22%2019-55-21.png)
+
+- Testing images
+  
+![App Screenshot](https://github.com/Yashwanthkumar-dev/interactive_task_Management/blob/057c8892a5f712607627afd3215a710acb6fe719/Screenshot%20from%202026-05-22%2019-41-30.png)
+![App Screenshot](https://github.com/Yashwanthkumar-dev/interactive_task_Management/blob/057c8892a5f712607627afd3215a710acb6fe719/Screenshot%20from%202026-05-22%2019-40-19.png)
+![App Screenshot](https://github.com/Yashwanthkumar-dev/interactive_task_Management/blob/057c8892a5f712607627afd3215a710acb6fe719/Screenshot%20from%202026-05-22%2019-40-27.png)
+![App Screenshot](https://github.com/Yashwanthkumar-dev/interactive_task_Management/blob/057c8892a5f712607627afd3215a710acb6fe719/Screenshot%20from%202026-05-22%2019-40-32.png)
+![App Screenshot](https://github.com/Yashwanthkumar-dev/interactive_task_Management/blob/057c8892a5f712607627afd3215a710acb6fe719/Screenshot%20from%202026-05-22%2019-41-12.png)
 
 ## Authors
 
