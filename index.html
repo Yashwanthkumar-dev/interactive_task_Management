@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Interactive task management systems</title>
+  </head>
+  <header class="header-container">
+    <div class="header">
+      <h1>.taskr</h1>
+    </div>
+
+    <div>
+      <h3 id="timer"></h3>
+    </div>
+  </header>
+  <hr class="line">
+  <body>
+    <main class="main-container">
+      <section class="container">
+        <div class="background-blur"></div>
+        <div>
+          <h2><span>my</span> task</h2>
+        </div>
+
+        <div>
+          <p class="para">// track what matters.ship what counts</p>
+        </div>
+
+        <div class="userinput-container">
+          <h3>new_task</h3>
+          <input type="text" id="userinput" placeholder="describe your task" />
+          <button onclick="save()">+ add</button>
+        </div>
+
+        <div class="status">
+          <p onclick="filterTask('total')">total : <span id="total"></span></p>
+          <p onclick="filterTask('pending')">pending : <span id="pending"></span></p>
+          <p onclick="filterTask('completed')">completed : <span id="completed"></span></p>
+        </div>
+
+        <table>
+          <thead>
+            <tr>
+              <th>tasks</th>
+              <th>status</th>
+              <th>action</th>
+            </tr>
+          </thead>
+          <tbody class="tablebody" id="tablebody">
+          </tbody>
+        </table>
+      </section>
+    </main>
+  </body>
+  <script src="index.js"></script>
+</html>
