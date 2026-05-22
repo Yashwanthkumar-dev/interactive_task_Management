@@ -48,6 +48,9 @@ body {
   margin: auto;
   position: relative;
 }
+.fa-sharp{
+  color: 1px solid green;
+}
 .background-blur {
   position: absolute;
   top: 6%;

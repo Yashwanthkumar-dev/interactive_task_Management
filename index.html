@@ -1,11 +1,22 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <title>Interactive task management systems</title>
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- font awesome -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+  />
+
+  <link rel="stylesheet" href="style.css" />
+
+  <title>Interactive task management systems</title>
+</head>
+
+<body>
+
   <header class="header-container">
     <div class="header">
       <h1>.taskr</h1>
@@ -15,44 +26,72 @@
       <h3 id="timer"></h3>
     </div>
   </header>
+
   <hr class="line">
-  <body>
-    <main class="main-container">
-      <section class="container">
-        <div class="background-blur"></div>
-        <div>
-          <h2><span>my</span> task</h2>
-        </div>
 
-        <div>
-          <p class="para">// track what matters.ship what counts</p>
-        </div>
+  <main class="main-container">
 
-        <div class="userinput-container">
-          <h3>new_task</h3>
-          <input type="text" id="userinput" placeholder="describe your task" />
-          <button onclick="save()">+ add</button>
-        </div>
+    <section class="container">
 
-        <div class="status">
-          <p onclick="filterTask('total')">total : <span id="total"></span></p>
-          <p onclick="filterTask('pending')">pending : <span id="pending"></span></p>
-          <p onclick="filterTask('completed')">completed : <span id="completed"></span></p>
-        </div>
+      <div class="background-blur"></div>
 
-        <table>
-          <thead>
-            <tr>
-              <th>tasks</th>
-              <th>status</th>
-              <th>action</th>
-            </tr>
-          </thead>
-          <tbody class="tablebody" id="tablebody">
-          </tbody>
-        </table>
-      </section>
-    </main>
-  </body>
+      <div>
+        <h2><span>my</span> task</h2>
+      </div>
+
+      <div>
+        <p class="para">// track what matters.ship what counts</p>
+      </div>
+
+      <div class="userinput-container">
+
+        <h3>new_task</h3>
+
+        <input
+          type="text"
+          id="userinput"
+          placeholder="describe your task"
+        />
+
+        <button onclick="save()">+ add</button>
+
+      </div>
+
+      <div class="status">
+
+        <p onclick="filterTask('total')">
+          total : <span id="total"></span>
+        </p>
+
+        <p onclick="filterTask('pending')">
+          pending : <span id="pending"></span>
+        </p>
+
+        <p onclick="filterTask('completed')">
+          completed : <span id="completed"></span>
+        </p>
+
+      </div>
+
+      <table>
+
+        <thead>
+          <tr>
+            <th>tasks</th>
+            <th>status</th>
+            <th>action</th>
+          </tr>
+        </thead>
+
+        <tbody class="tablebody" id="tablebody"></tbody>
+
+      </table>
+
+    </section>
+
+  </main>
+
   <script src="index.js"></script>
+
+</body>
 </html>
